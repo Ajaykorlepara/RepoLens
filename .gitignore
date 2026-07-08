@@ -1,0 +1,25 @@
+# Environment variables (never commit real secrets)
+.env
+backend/.env
+
+# Data generated at runtime
+data/chroma_db/
+data/repos/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
