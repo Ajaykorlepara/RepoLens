@@ -14,8 +14,8 @@ import streamlit.components.v1 as components
 BACKEND_URL = "http://localhost:8000"
 MERMAID_CDN = "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.min.js"
 
-st.set_page_config(page_title="GitHub RAG Agent", page_icon=":books:", layout="wide")
-st.title("GitHub Repository RAG Agent")
+st.set_page_config(page_title="RepoLens", page_icon=":books:", layout="wide")
+st.title("RepoLens")
 
 # --- Session state defaults ---
 for key, value in {
